@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6433B866-B544-4749-A3CE-B5EF5CDD0DAC}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FarseerGames.FarseerPhysics</RootNamespace>
+    <AssemblyName>FarseerPhysics</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT,XNA</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT,XNA</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collisions\AABB.cs" />
+    <Compile Include="Collisions\BruteForceCollider.cs" />
+    <Compile Include="Collisions\CollisionHelper.cs" />
+    <Compile Include="Collisions\Contact.cs" />
+    <Compile Include="Collisions\ContactId.cs" />
+    <Compile Include="Collisions\ContactList.cs" />
+    <Compile Include="Collisions\Feature.cs" />
+    <Compile Include="Collisions\Geom.cs" />
+    <Compile Include="Collisions\GeomList.cs" />
+    <Compile Include="Collisions\Grid.cs" />
+    <Compile Include="Collisions\LineIntersectInfo.cs" />
+    <Compile Include="Collisions\SelectiveSweepCollider.cs" />
+    <Compile Include="Collisions\SweepAndPruneCollider.cs" />
+    <Compile Include="Collisions\Vertices.cs" />
+    <Compile Include="Controllers\AABBFluidContainer.cs" />
+    <Compile Include="Controllers\Controller.cs" />
+    <Compile Include="Controllers\ControllerList.cs" />
+    <Compile Include="Controllers\FluidDragController.cs" />
+    <Compile Include="Controllers\InactivityController.cs" />
+    <Compile Include="Controllers\WaveController.cs" />
+    <Compile Include="Dynamics\Arbiter.cs" />
+    <Compile Include="Dynamics\ArbiterList.cs" />
+    <Compile Include="Dynamics\Body.cs" />
+    <Compile Include="Dynamics\BodyList.cs" />
+    <Compile Include="Dynamics\Curve.cs" />
+    <Compile Include="Dynamics\Joints\AngleJoint.cs" />
+    <Compile Include="Dynamics\Joints\AngleLimitJoint.cs" />
+    <Compile Include="Dynamics\Joints\FixedAngleJoint.cs" />
+    <Compile Include="Dynamics\Joints\FixedAngleLimitJoint.cs" />
+    <Compile Include="Dynamics\Joints\FixedRevoluteJoint.cs" />
+    <Compile Include="Dynamics\Joints\Joint.cs" />
+    <Compile Include="Dynamics\Joints\JointList.cs" />
+    <Compile Include="Dynamics\Joints\PinJoint.cs" />
+    <Compile Include="Dynamics\Joints\RevoluteJoint.cs" />
+    <Compile Include="Dynamics\Joints\SliderJoint.cs" />
+    <Compile Include="Dynamics\Path.cs" />
+    <Compile Include="Dynamics\Springs\AngleSpring.cs" />
+    <Compile Include="Dynamics\Springs\FixedAngleSpring.cs" />
+    <Compile Include="Dynamics\Springs\FixedLinearSpring.cs" />
+    <Compile Include="Dynamics\Springs\LinearSpring.cs" />
+    <Compile Include="Dynamics\Springs\Spring.cs" />
+    <Compile Include="Dynamics\Springs\SpringList.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Factories\BodyFactory.cs" />
+    <Compile Include="Factories\ComplexFactory.cs" />
+    <Compile Include="Factories\ControllerFactory.cs" />
+    <Compile Include="Factories\GeomFactory.cs" />
+    <Compile Include="Factories\JointFactory.cs" />
+    <Compile Include="Factories\SpringFactory.cs" />
+    <Compile Include="Interfaces\IBroadPhaseCollider.cs" />
+    <Compile Include="Interfaces\IFluidContainer.cs" />
+    <Compile Include="Mathematics\BilinearInterpolator.cs" />
+    <Compile Include="Mathematics\Calculator.cs" />
+    <Compile Include="Mathematics\CircularInterpolator.cs" />
+    <Compile Include="Mathematics\ConvertUnits.cs" />
+    <Compile Include="PhysicsSimulator.cs" />
+    <Compile Include="Pool.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scaling.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SilverArcade.SilverSprite.Core\SilverArcade.SilverSprite.Core.csproj">
+      <Project>{7D87751B-AEF3-4ED6-BC1D-A3826363A5B2}</Project>
+      <Name>SilverArcade.SilverSprite.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SilverArcade.SilverSprite\SilverArcade.SilverSprite.csproj">
+      <Project>{5A28896D-B208-4130-B41E-C77B7C14482A}</Project>
+      <Name>SilverArcade.SilverSprite</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

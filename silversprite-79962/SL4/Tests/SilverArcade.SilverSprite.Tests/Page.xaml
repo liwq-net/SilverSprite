@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="SilverArcade.SilverSprite.Tests.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:test="clr-namespace:SilverArcade.SilverSprite.Tests.TestApps"
+    Width="800" Height="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="12"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+            <Grid x:Name="LayoutRoot" Background="White" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="125" />
+                <ColumnDefinition Width="675" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <Button Content="Sprite Batch" x:Name="btnSpriteBatch" Click="btnSpriteBatch_Click" />
+                <Button Content="Text (LayerDepth)" x:Name="btnTextTests" Click="btnTextTests_Click" />
+                <Button Content="Textures" x:Name="btnTexturesTests" Click="btnTexturesTests_Click" />
+                <Button Content="Sounds" x:Name="btnSoundTests" Click="btnSoundTests_Click" />
+                <Button Content="Keyboard" x:Name="btnKeyboardTests" Click="btnKeyboardTests_Click" />
+                <Button Content="GamePad Mappings" x:Name="btnKeyboardMappings"  Click="btnKeyboardMappings_Click"/>
+                <Button Content="Single Component" x:Name="btnSingleDGC" Click="btnSingleDGC_Click" />
+                <Button Content="DGC Ordering" x:Name="btnOrderDGC" Click="btnOrderDGC_Click"  />
+			    <Button Content="Startup Sequence" x:Name="btnStartupSequencing"  Click="btnStartupSequencing_Click" />
+                <Button Content="Viewports/Transforms" x:Name="btnViewport"  Click="btnViewport_Click" />
+                <Button Content="Graphics Stress" x:Name="btnGraphicsStress"  Click="btnGraphicsStress_Click" />
+            </StackPanel>
+        
+            <Canvas Grid.Column="1" x:Name="ContentHolder">
+            
+            </Canvas>
+        </Grid>
+    </Grid>
+</UserControl>

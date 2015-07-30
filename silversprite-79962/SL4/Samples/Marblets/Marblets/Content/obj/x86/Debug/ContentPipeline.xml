@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Textures\game_over_frame.tga</Source>
+      <Name>Textures\game_over_frame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\game_over_frame.xnb</Output>
+      <Time>2008-10-27T14:44:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\marble.tga</Source>
+      <Name>Textures\marble</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\marble.xnb</Output>
+      <Time>2008-10-27T14:44:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\marble_burst.tga</Source>
+      <Name>Textures\marble_burst</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\marble_burst.xnb</Output>
+      <Time>2008-10-27T14:44:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\marble_cursor.tga</Source>
+      <Name>Textures\marble_cursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\marble_cursor.xnb</Output>
+      <Time>2008-10-27T14:44:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\marble_glow_1ring.tga</Source>
+      <Name>Textures\marble_glow_1ring</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\marble_glow_1ring.xnb</Output>
+      <Time>2008-10-27T14:44:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\marble_glow_2rings.tga</Source>
+      <Name>Textures\marble_glow_2rings</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\marble_glow_2rings.xnb</Output>
+      <Time>2008-10-27T14:44:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\marble_tex1.tga</Source>
+      <Name>Textures\marble_tex1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\marble_tex1.xnb</Output>
+      <Time>2008-10-27T14:44:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\numbers_large.tga</Source>
+      <Name>Textures\numbers_large</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\numbers_large.xnb</Output>
+      <Time>2008-10-27T14:44:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\numbers_small.tga</Source>
+      <Name>Textures\numbers_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\numbers_small.xnb</Output>
+      <Time>2008-10-27T14:44:58-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\play_frame.tga</Source>
+      <Name>Textures\play_frame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\play_frame.xnb</Output>
+      <Time>2008-10-27T14:45:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\title_frame.tga</Source>
+      <Name>Textures\title_frame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Textures\title_frame.xnb</Output>
+      <Time>2008-10-27T14:45:00-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\clear_4.wma</Source>
+      <Name>Audio\clear_4</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\clear_4.xnb</Output>
+      <Time>2010-02-28T13:21:56.4149635-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\clear_bonus.wma</Source>
+      <Name>Audio\clear_bonus</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\clear_bonus.xnb</Output>
+      <Time>2010-02-28T13:21:56.6249755-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\clear_illegal.wma</Source>
+      <Name>Audio\clear_illegal</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\clear_illegal.xnb</Output>
+      <Time>2010-02-28T13:21:56.8539886-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\drop1.wma</Source>
+      <Name>Audio\drop1</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\drop1.xnb</Output>
+      <Time>2010-02-28T13:21:57.071001-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\drop2.wma</Source>
+      <Name>Audio\drop2</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\drop2.xnb</Output>
+      <Time>2010-02-28T13:21:57.3000141-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\navigate_1.wma</Source>
+      <Name>Audio\navigate_1</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\navigate_1.xnb</Output>
+      <Time>2010-02-28T13:21:58.7760985-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\start_1.wma</Source>
+      <Name>Audio\start_1</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\start_1.xnb</Output>
+      <Time>2010-02-28T13:21:58.9951111-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\start_3.wma</Source>
+      <Name>Audio\start_3</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\start_3.xnb</Output>
+      <Time>2010-02-28T13:21:59.1901222-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\IntroMus.wma</Source>
+      <Name>Audio\IntroMus</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\IntroMus.xnb</Output>
+      <Extra>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\IntroMus.wma</Extra>
+      <Time>2010-02-28T13:21:57.8450453-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\MusLoop_Temp1.wma</Source>
+      <Name>Audio\MusLoop_Temp1</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\MusLoop_Temp1.xnb</Output>
+      <Extra>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\Audio\MusLoop_Temp1.wma</Extra>
+      <Time>2010-02-28T13:21:58.5550859-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Bill\Documents\Visual Studio 2008\Projects\Marblets\Marblets\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-28T00:16:16-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-28T00:16:06-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2009-09-15T13:11:17.0403515-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

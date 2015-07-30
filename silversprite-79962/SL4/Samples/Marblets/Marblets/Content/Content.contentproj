@@ -1,0 +1,141 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectGuid>72e129d1-015b-46fb-8502-a89647a14a80</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <XnaFrameworkVersion>v3.1</XnaFrameworkVersion>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <XnaPlatform>Windows</XnaPlatform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <XnaPlatform>Windows</XnaPlatform>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Textures\game_over_frame.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>game_over_frame</Name>
+    </Compile>
+    <Compile Include="Textures\marble.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>marble</Name>
+    </Compile>
+    <Compile Include="Textures\marble_burst.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>marble_burst</Name>
+    </Compile>
+    <Compile Include="Textures\marble_cursor.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>marble_cursor</Name>
+    </Compile>
+    <Compile Include="Textures\marble_glow_1ring.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>marble_glow_1ring</Name>
+    </Compile>
+    <Compile Include="Textures\marble_glow_2rings.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>marble_glow_2rings</Name>
+    </Compile>
+    <Compile Include="Textures\marble_tex1.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>marble_tex1</Name>
+    </Compile>
+    <Compile Include="Textures\numbers_large.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>numbers_large</Name>
+    </Compile>
+    <Compile Include="Textures\numbers_small.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>numbers_small</Name>
+    </Compile>
+    <Compile Include="Textures\play_frame.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>play_frame</Name>
+    </Compile>
+    <Compile Include="Textures\title_frame.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>title_frame</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audio\clear_4.wma">
+      <Name>clear_4</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\clear_bonus.wma">
+      <Name>clear_bonus</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\clear_illegal.wma">
+      <Name>clear_illegal</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\drop1.wma">
+      <Name>drop1</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\drop2.wma">
+      <Name>drop2</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\IntroMus.wma">
+      <Name>IntroMus</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\MusLoop_Temp1.wma">
+      <Name>MusLoop_Temp1</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\navigate_1.wma">
+      <Name>navigate_1</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\start_1.wma">
+      <Name>start_1</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="Audio\start_3.wma">
+      <Name>start_3</Name>
+      <Importer>WmaImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v3.1\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+</Project>
